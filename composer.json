@@ -3,8 +3,8 @@
 
     "type": "yii2-extension",
 
-    "description": "apricot admin panel for yii2",
-    "keywords": ["yii2", "imagine", "image", "helper"],
+    "description": "apricot admin panel for yii2 (RTL)",
+    "keywords": ["yii2", "admin", "admin panel", "apricot"],
     "license": "mozilla",
     "support": {
         "issues": "https://github.com/amintado/yii2-aprico-asset/issues",
@@ -17,11 +17,13 @@
             "name": "gholamreza beheshtian",
             "email": "amintado@gmail.com",
             "mobile": "+989353466620",
-            "instagram":"@shahrmap"
+            "instagram":"@shahrmap",
+            "homepage":"http://shahrmap.ir"
         }
     ],
 
     "require": {
+        "php": ">=5.3.1",
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap": "2.*"
     },

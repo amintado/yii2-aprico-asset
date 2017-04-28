@@ -1,0 +1,35 @@
+{
+    "name": "amintado/yii2-aprico-asset",
+
+    "type": "yii2-extension",
+
+    "description": "apricot admin panel for yii2",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "mozilla",
+    "support": {
+        "issues": "https://github.com/amintado/yii2-aprico-asset/issues",
+        "forum": "",
+        "wiki": "https://github.com/amintado/yii2-aprico-asset/wiki",
+        "source": "https://github.com/amintado/yii2-aprico-asset"
+    },
+    "authors": [
+        {
+            "name": "gholamreza beheshtian",
+            "email": "amintado@gmail.com",
+            "mobile": "+989353466620",
+            "instagram":"@shahrmap",
+            "telegram":"@amintado"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap": "2.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "amintado\\": ""
+        }
+    }
+}
