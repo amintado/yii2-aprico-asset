@@ -324,9 +324,7 @@ SideBar::begin() ?>
                      <p id="clock"></p>
                  </div>
                  <div class="copyright">
-                     تقدیم با عشق
-                     <span class="entypo-heart"></span> سال 1396 <a href="http://shahrmap.ir"> سایت شهرمپ </a>
-                    همه ی حقوق محفوظ است
+                 amintado - yii2 Apricot Admin 2017
                  </div>
                  <div class="devider-footer"></div>
  
