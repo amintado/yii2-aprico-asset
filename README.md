@@ -3,12 +3,25 @@ this project contine apricot admin panel for yii2
 this version is contine:
  
  * Apricot Admin assets
- * Apricot Admin Views and Layouts
- * Apricot widgets:
+ * Apricot Admin Layouts
+ * Apricot Widgets:
     * SideBar Widget
-    *  Chart Widget
-    *   SideBar Items Widget
- * Multilingual Messages
+        * SideBar Items Widget
+    * Navbar widget
+        * Navbar Items Widget
+        
+ # Attention
+ this is a TRL Admin Panel now
+ but in next versions will changed for international use
+ this is good for TRL languages and bad for LTR.
+ if you want , help to improve this project for all
+ 
+ # assets
+ all origin Apricot assets are here
+ you can use origin HTML Apricot assets in your project
+ OR
+ you can build custom widget from assets.
+ so the origin Apricot HTML pages are in vendor/yii2-aprico-asset/origin folder
  
  # install on yii2
  add this code to composer.json file:
@@ -338,4 +351,9 @@ SideBar::begin() ?>
  </div>
  ````
  
+ # changelog
+ 2017-4-29
+  * add origin HTML files to origin folderz
  
+ # Apricot Admin Origin Version
+ the apricot HTML that used in this project is 1.3
