@@ -26,7 +26,7 @@ this version is contine:
  # install on yii2
  add this code to composer.json file:
  ````
- "amintado/yii2-aprico-asset": "2.*"
+ "amintado/yii2-aprico-asset": "*"
  ````
 or Either run
  ````
