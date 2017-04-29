@@ -9,3 +9,5 @@ this version is contine:
     *  Chart Widget
     *   SideBar Items Widget
  * Multilingual Messages
+ 
+ ![6dcf0187-d16a-4505-5c05-270e689bafee](https://cloud.githubusercontent.com/assets/11722893/25552669/2721a498-2cb5-11e7-858f-195ea733356f.png)
