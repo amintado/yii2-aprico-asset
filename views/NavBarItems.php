@@ -40,7 +40,7 @@ use amintado\widgets\NavbarItems;
         <li class="divider"></li>
         <li>
             <a href="<?= Yii::$app->urlManager->createUrl('/site/logout') ?>">
-                <span class="entypo-logout" data-method="post" style="float: right;padding-left: 10px;"></span>&nbsp;&nbsp;<?= 'خروج ( ' . Yii::$app->user->identity->fullname . ' )' ?></a>
+                <span class="entypo-logout" data-method="post" style="float: right;padding-left: 10px;"></span>&nbsp;&nbsp;<?= 'خروج ( '  . ' )' ?></a>
         </li>
     </ul>
 </li>
