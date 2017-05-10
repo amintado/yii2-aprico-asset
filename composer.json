@@ -4,8 +4,8 @@
     "type": "yii2-extension",
 
     "description": "apricot admin panel for yii2",
-    "keywords": ["yii2", "admin", "apricot admin", "admin lte"],
-    "license": "LGPL-3.0+",
+    "keywords": ["yii2", "imagine", "image", "helper"],
+    "license": "mozilla",
     "support": {
         "issues": "https://github.com/amintado/yii2-aprico-asset/issues",
         "forum": "",
@@ -22,6 +22,10 @@
         }
     ],
 
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap": "2.*"
+    },
 
     "autoload": {
         "psr-4": {

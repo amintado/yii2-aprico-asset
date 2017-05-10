@@ -19,7 +19,7 @@ $SearchBox['placeholder']=isset($SearchBox['placeholder'])?$SearchBox['placehold
 
 ?>
 <div id="skin-select" style="right: 0px;">
-    <div id="logo">
+    <div id="logo" class="text-right" style="padding-right: 10px">
         <h1>
 
             <span><?= $version ?></span>

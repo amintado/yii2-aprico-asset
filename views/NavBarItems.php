@@ -29,21 +29,18 @@ use amintado\widgets\NavbarItems;
     </a>
     <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
         <li>
-            <a href="#">
-                <span class="entypo-user"></span>&nbsp;&nbsp;My Profile</a>
+            <a href="<?= 'http://ideshahr.ir/new/frontend/index.php/dashboard/user/profile?id='.Yii::$app->user->id ?>">
+                <span class="entypo-user" style="float: right;padding-left: 10px;"></span>&nbsp;&nbsp;پروفایل</a>
         </li>
         <li>
-            <a href="#">
-                <span class="entypo-vcard"></span>&nbsp;&nbsp;Account Setting</a>
+            <a href="<?= 'http://ideshahr.ir/new/frontend/dashboard/edit' ?>">
+                <span class="entypo-vcard" style="float: right;padding-left: 10px;"></span>&nbsp;&nbsp;تنظیم حساب کاربری</a>
         </li>
-        <li>
-            <a href="#">
-                <span class="entypo-lifebuoy"></span>&nbsp;&nbsp;Help</a>
-        </li>
+
         <li class="divider"></li>
         <li>
-            <a href="#">
-                <span class="entypo-logout"></span>&nbsp;&nbsp;Logout</a>
+            <a href="<?= Yii::$app->urlManager->createUrl('/site/logout') ?>">
+                <span class="entypo-logout" data-method="post" style="float: right;padding-left: 10px;"></span>&nbsp;&nbsp;<?= 'خروج ( ' . Yii::$app->user->identity->fullname . ' )' ?></a>
         </li>
     </ul>
 </li>

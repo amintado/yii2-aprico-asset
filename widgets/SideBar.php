@@ -17,7 +17,7 @@ use yii\base\Widget;
 class SideBar extends Widget
 {
 
-    public $name='Apricot';
+    public $name='کارتابل مشاوران';
     public $version='1.0';
     public $SearchBox=[
         'name'=>'search',

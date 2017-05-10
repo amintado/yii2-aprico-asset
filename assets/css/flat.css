@@ -1485,7 +1485,7 @@ table {
 }
 
 th {
-  text-align: left;
+  text-align: right;
 }
 
 .table {
@@ -4975,7 +4975,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #18bc9c;
+  /*background-color: #18bc9c;*/
   border: 1px solid transparent;
 }
 
@@ -5008,8 +5008,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   color: #ffffff;
   cursor: default;
-  background-color: #0f7864;
-  border-color: #0f7864;
+  /*background-color: #0f7864;*/
+  /*border-color: #0f7864;*/
 }
 
 .pagination > .disabled > span,
@@ -7347,11 +7347,8 @@ input[type="color"]:focus,
   color: #2c3e50;
 }
 
-.pagination .disabled > a,
-.pagination .disabled > a:hover,
-.pagination .disabled > a:focus,
-.pagination .disabled > span {
-  background-color: #3be6c4;
+.pagination .disabled > a, .pagination .disabled > a:hover, .pagination .disabled > a:focus, .pagination .disabled > span {
+  background-color: hsl(167.1, 11.3%, 75.7%);
 }
 
 .pager a {

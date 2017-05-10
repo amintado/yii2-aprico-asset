@@ -13,18 +13,20 @@ class ApricotAsset extends BaseApricotAsset
     public $sourcePath = '@vendor/amintado/yii2-aprico-asset/assets';
     public $js = [
 
-        'js/app.js',
+//        'js/app.js',
         'js/preloader.js',
-        'js/load.js',
-        'js/main.js',
-        'js/jhere-custom.js',
-        'js/countdown/jquery.countdown.js',
-        'js/speed/canvasgauge-coustom.js',
-        'js/chart/realTime.js',
-        'js/chart/jquery.flot.resize.js',
-        'js/chart/jquery.flot.js',
+//        'js/load.js',
+//        'js/main.js',
+//        'js/jhere-custom.js',
+//        'js/countdown/jquery.countdown.js',
+//        'js/speed/canvasgauge-coustom.js',
+//        'js/chart/realTime.js',
+//        'js/skin-select/skin-select.js',
+//        'js/skin-select/jquery.cookie.js',
+//        'js/skin-select/skin-select-edit.js',
     ];
     public $css = [
+        'css/skin-select/skin-select.css',
         'css/animation.css',
         'css/bootstrap.css',
         'css/bootstrap-theme.min.css',
@@ -47,6 +49,7 @@ class ApricotAsset extends BaseApricotAsset
         'css/signin.css',
         'css/social.css',
         'css/style.css',
+//        'css/rtl.css',
 //        'css/typicons.css',
 //        'css/typicons-codes.css',
 //        'css/typicons-embedded.css',
@@ -60,7 +63,7 @@ class ApricotAsset extends BaseApricotAsset
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'amintado\web\GageAsset',
+//        'amintado\web\GageAsset',
         'amintado\web\RightSliderContentAsset',
     ];
 
